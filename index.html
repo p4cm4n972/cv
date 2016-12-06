@@ -26,6 +26,14 @@
 			<a href="contact.html">Contact</a>
 			</div>
 			<button class="button" onclick="openNav()"><span>menu</span></button>
+			<div id="sn">
+		<ul>
+			<li><img src="img/twitter.png" alt="twitter" width="50px" height="50px"></li>
+			<li><img src="img/linkedin.png" alt="linkedin" width="50px" height="50px"></li>
+			<li><img src="img/facebook.png" alt="facebook" width="50px" height="50px"></li>
+			<li><img src="img/instagram.png" alt="instagram" width="50px" height="50px"></li>
+		</ul>
+		</div>	
 				<!-- CONTENU niveau slide bar-->
 			<div id="main">
 				<header>
@@ -44,7 +52,7 @@
 					</figure>
 					</div>
 					<div id="head02">
-					<p style="font-size:24px; float:center;">Développeur Intégrateur Web fullStack <strong>JAVASCRIPT</strong> <abbr title="junior" lang="en">jr</abbr></p> 
+					<h1 style="float:center;">Développeur Intégrateur Web fullStack <strong><abbr title="javascipt"><span style="text-decoration:none;">JS</span></abbr></strong> <abbr title="junior" lang="en">jr</abbr></h1> 
 					<div style="color:white; margin-left:70px;"><cite>Montesquieu, de la Brède </cite><q>Le mieux est le mortel ennemi du bien</q></div>
 					</div>
 				</header>
@@ -67,34 +75,21 @@
 								<img src="img/slide5.png" style="width:80%">
 								</div>
 						</div>
-						<script>
-							var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>	
-</div>
-<!-- PARAGRAPHE COMPETENCES -->
+						</div>
+	<!-- BOUTON SOCIAUX -->
+					
 				</div>
+							
+<!-- PARAGRAPHE COMPETENCES -->
 				<div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align:justify;">
-							<h3 style="text-align:center;">WEB / SOFT&HARDWARE</h3>
+							<h2 style="text-align:center;">WEB / SOFT&HARDWARE</h2>
 							</div>
 				<div class="bgimg-3" >
-					<div class="caption">
-						<span class="border">Compétences Informatiquetique</span>
+					<div >
+						<h3>Compétences Informatique</h3>
 						</div>
-						<div class="tableau">
-						<table>
+						<div >
+						<table class="tableau" >
 							<tr>
 								<td>WEB</td>
 								<td>Hardware&Software</td>
@@ -113,14 +108,14 @@ function showSlides() {
 <!-- PARAGRAPHE parcours -->
 						
 	<div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align:justify;">
-							<h3 style="text-align:center;">Parcours Professionnel</h3>
+							<h2 style="text-align:center;">Parcours Professionnel</h2>
 							</div>					
 	<div class="bgimg-1" >
-					<div class="caption">
-						<span class="border">Parcours Professionnel</span>
+					<div >
+						<h3>Parcours Professionnel</h3>
 						</div>
-						<div class="tableau">
-						<table>
+						<div >
+						<table class="tableau">
 							<tr>
 								<td>2016 2014</td>
 								<td>Technicien Support</td>
@@ -141,14 +136,14 @@ function showSlides() {
 						</div>
 <!-- PARAGRAPHE formation -->
 		<div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align:justify;">
-							<h3 style="text-align:center;">Formation Professionelle & Scolaire</h3>
+							<h2 style="text-align:center;">Formation Professionelle & Scolaire</h2>
 							</div>				
 	<div class="bgimg-2" >
-					<div class="caption">
-						<span class="border">CURSUS</span>
+					<div >
+						<h3>CURSUS</h3>
 						</div>
-						<div class="tableau">
-						<table>
+						<div >
+						<table class="tableau">
 							<tr>
 								<td>2016</td>
 								<td>Développeur Intégrateur WEB JS</td>
@@ -167,9 +162,27 @@ function showSlides() {
 						</table>
 						</div>
 						</div>
+						<footer>
+
+						</footer>
 						
 		
+<script>
+							var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 	</body>
 </html>
 
